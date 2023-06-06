@@ -23,54 +23,29 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css" />
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
   </head>
   <body>
-    <!-- navbar-->
-    <header class="header">
-      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/logo.svg" alt="" width="110"
-          /></a>
-          <button
-            class="navbar-toggler navbar-toggler-end"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link link-scroll active" href="#hero"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-scroll" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-scroll" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-scroll" href="#testimonials"
-                  >Testimonials</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <script>
+      // Cargar el encabezado
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.querySelector("header").innerHTML = data;
+        });
+
+      // Cargar el pie de página
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <header></header>
     <!-- Hero Section-->
     <section
       class="hero bg-top py-5"
-      id="hero"
+      id="home"
       style="
         background: url(img/banner-4.png) no-repeat;
         background-size: 100% 80%;
@@ -435,108 +410,7 @@
     <a class="scroll-top-btn" id="scrollTop" href="#!"
       ><i class="fas fa-long-arrow-alt-up"></i
     ></a>
-    <footer class="with-pattern-1 position-relative pt-5">
-      <div class="container py-5">
-        <div class="row gy-4">
-          <div class="col-lg-3">
-            <img class="mb-4" src="img/logo.svg" alt="" width="110" />
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore.
-            </p>
-          </div>
-          <div class="col-lg-2">
-            <h2 class="h5 mb-4">Quick Links</h2>
-            <div class="d-flex">
-              <ul class="list-unstyled d-inline-block me-4 mb-0">
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">History</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">About us</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">Contact us</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">Services</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <h2 class="h5 mb-4">Services</h2>
-            <div class="d-flex">
-              <ul class="list-unstyled me-4 mb-0">
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">History</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">About us</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">Contact us</a>
-                </li>
-                <li class="mb-2">
-                  <a class="footer-link" href="#!">Services</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <h2 class="h5 mb-4">Contact Info</h2>
-            <ul class="list-unstyled me-4 mb-3">
-              <li class="mb-2 text-muted">
-                728 Ocello Street, San Diego, California.
-              </li>
-              <li class="mb-2">
-                <a class="footer-link" href="tel:619-851-4132">619-851-4132</a>
-              </li>
-              <li class="mb-2">
-                <a class="footer-link" href="mailto:Nova@example.com"
-                  >Nova@example.com</a
-                >
-              </li>
-            </ul>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="social-link" href="#!"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="social-link" href="#!"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="social-link" href="#!"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="social-link" href="#!"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="copyrights">
-        <div class="container text-center py-4">
-          <p class="mb-0 text-muted text-sm">
-            &copy; 2021, Your company. Template by
-            <a
-              href="https://bootstrapious.com/p/app-landing-page"
-              class="text-reset"
-              >Bootstrapious</a
-            >.
-          </p>
-          <!-- If you want to remove the backlink, please purchase the Attribution-Free License. See details in readme.txt or license.txt. Thanks!-->
-        </div>
-      </div>
-    </footer>
+    <footer></footer>
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
