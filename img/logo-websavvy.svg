@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5077.89 1156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #1d2b39;
+        font-size: 700px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: SourceSerifVariable-Roman, 'Source Serif Variable';
+        font-variation-settings: 'wght' 389;
+      }
+
+      .cls-7 {
+        font-family: SourceSerifRoman-Black, 'Source Serif Variable';
+        font-variation-settings: 'wght' 900;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        clip-rule: evenodd;
+        fill: none;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-10" d="m866.2,683.1l152.82,156.62c47.54,54.71,60.07,131.59,32.38,198.56-27.69,66.98-90.86,112.56-163.15,117.72h-472.9c-12.78-.36-24.46-7.33-30.85-18.4-6.39-11.07-6.58-24.67-.51-35.91l409.98-418.59c21.26-16.46,50.97-16.46,72.23,0m-576.4-210.2l-152.82-156.62c-47.54-54.71-60.07-131.59-32.38-198.56C132.3,50.74,195.46,5.16,267.76,0h472.9c12.78.36,24.46,7.33,30.85,18.4,6.39,11.07,6.58,24.67.51,35.91l-409.98,418.59c-21.26,16.46-50.97,16.46-72.23,0Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1012.76" y1="1072.24" x2="130.82" y2="69.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f07f1e"/>
+      <stop offset="1" stop-color="#fdc73a"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-10" d="m683.1,289.8l156.62-152.82c54.71-47.54,131.59-60.07,198.56-32.38,66.98,27.69,112.55,90.86,117.72,163.15v472.9c-.36,12.78-7.33,24.46-18.4,30.85-11.07,6.39-24.67,6.58-35.91.51l-418.59-409.98c-16.46-21.26-16.46-50.97,0-72.23m-210.2,576.4l-156.62,152.82c-54.71,47.54-131.59,60.07-198.56,32.38C50.74,1023.71,5.16,960.54,0,888.25v-472.9c.36-12.78,7.33-24.46,18.4-30.85,11.07-6.39,24.67-6.58,35.91-.51l418.59,409.98c16.46,21.26,16.46,50.97,0,72.23Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="117.71" y1="1051.39" x2="1038.3" y2="104.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eb5c9d"/>
+      <stop offset="1" stop-color="#ed6c6e"/>
+    </linearGradient>
+  </defs>
+  <g id="LOGO">
+    <g id="Capa_1" data-name="Capa 1">
+      <g class="cls-9">
+        <rect class="cls-11" x="76.91" width="1002.18" height="1156"/>
+      </g>
+      <g class="cls-8">
+        <rect class="cls-1" y="76.91" width="1156" height="1002.18"/>
+      </g>
+    </g>
+  </g>
+  <g id="TEXTO">
+    <text class="cls-2" transform="translate(1412.72 776.44)"><tspan class="cls-7" x="0" y="0">WEB</tspan><tspan class="cls-6" x="1567.98" y="0">S</tspan><tspan class="cls-5" x="1910.99" y="0">A</tspan><tspan class="cls-3" x="2284.09" y="0">VV</tspan><tspan class="cls-4" x="3229.07" y="0">Y</tspan></text>
+  </g>
+</svg>
