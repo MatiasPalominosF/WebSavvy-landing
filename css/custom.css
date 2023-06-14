@@ -1,6 +1,51 @@
 /* your styles go here */
-.center {
+.title-nutri {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  align-items: end;
+  margin-top: 5rem;
 }
+
+.coming-soon-overlay {
+  position: relative;
+  background-image: url("../img/service-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.coming-soon-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  filter: blur(1.5px);
+  z-index: -1;
+}
+
+.coming-soon-content {
+  position: relative;
+  z-index: 1;
+  filter: blur(1.5px);
+}
+
+.coming-soon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+  .features-container {
+    margin-top: 20px; /* Ajusta el valor del margen según tus necesidades */
+  }
+}
+
