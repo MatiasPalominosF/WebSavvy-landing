@@ -1,1 +1,107 @@
 /* your styles go here */
+.title-nutri {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 5rem;
+}
+
+.coming-soon-overlay {
+  position: relative;
+  background-image: url("../img/service-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.coming-soon-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  filter: blur(1.5px);
+  z-index: -1;
+}
+
+.coming-soon-content {
+  position: relative;
+  z-index: 1;
+  filter: blur(1.5px);
+}
+
+.coming-soon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  z-index: 2;
+  text-shadow: 2px 2px 10px rgba(49, 49, 49, 0.5);
+}
+
+@media (max-width: 767.98px) {
+  .features-container {
+    margin-top: 20px; /* Ajusta el valor del margen según tus necesidades */
+  }
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button i {
+  margin-right: 10px;
+}
+
+.contact-button:hover {
+  background-color: #128c7e;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #5954cb;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-arrow {
+  background-color: transparent;
+  color: #5954cb;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-arrow i {
+  margin-right: 5px;
+  transition: transform 0.3s ease;
+}
+
+.plan-div {
+  display: none;
+  margin-top: 10px;
+}
