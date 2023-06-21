@@ -54,7 +54,33 @@
   .generic_head_price
   .generic_price_tag
   .price
+  .currency_launch {
+  color: #414141;
+}
+
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .price
+  .sign_launch {
+  color: #414141;
+}
+
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .price
   .cent {
+  color: #414141;
+}
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .price
+  .month_launch {
   color: #414141;
 }
 
@@ -132,7 +158,6 @@
   position: relative;
   text-align: center;
   width: 360px;
-  height: 612px;
 }
 
 #generic_price_table .generic_content .generic_head_price {
@@ -227,6 +252,19 @@
   .generic_head_price
   .generic_price_tag
   .price
+  .sign_launch {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .price
   .currency {
   font-family: "Lato", sans-serif;
   font-size: 60px;
@@ -235,6 +273,23 @@
   line-height: 60px;
   padding: 0;
   vertical-align: middle;
+}
+
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .price
+  .currency_launch {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 350;
+  letter-spacing: -2px;
+  line-height: 30px;
+  padding: 0;
+  vertical-align: middle;
+  text-decoration: line-through;
+  text-decoration-color: #4c47ad;
 }
 
 #generic_price_table
@@ -259,6 +314,18 @@
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 3px;
+  vertical-align: bottom;
+}
+
+#generic_price_table
+  .generic_content
+  .generic_head_price
+  .generic_price_tag
+  .month_launch {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
   vertical-align: bottom;
 }
 
