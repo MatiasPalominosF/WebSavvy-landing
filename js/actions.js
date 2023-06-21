@@ -1,5 +1,5 @@
 const planBtn = document.getElementById("plan-btn");
-const planDiv = document.getElementById("plan-div");
+const planDiv = document.getElementById("generic_price_table");
 const arrowIcon = document.querySelector("#plan-btn i.fa-arrow-right");
 
 planBtn.addEventListener("click", () => {
